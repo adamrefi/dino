@@ -6,11 +6,30 @@
   background-color: #f8f9fa;
 }
 
+/* Sötét mód háttérszín a features szekcióhoz */
+[data-theme='dark'] .features {
+  background-color: #1e2125;
+}
+
 .featureSvg {
   height: 200px;
   width: 200px;
   margin-bottom: 1rem;
   fill: #8e44ad;
+}
+
+/* Sötét módban más színű SVG */
+[data-theme='dark'] .featureSvg {
+  fill: #9b59b6;
+}
+
+/* Szövegszínek sötét módban */
+[data-theme='dark'] .featureTitle {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .featureDescription {
+  color: #e0e0e0;
 }
 
 @media screen and (max-width: 996px) {

@@ -1,7 +1,5 @@
-// @ts-check
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Adali Clothing',
   tagline: 'Modern webáruház dokumentáció',
@@ -19,7 +17,7 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+   
       ({
         docs: {
           sidebarPath: './sidebars.js',
